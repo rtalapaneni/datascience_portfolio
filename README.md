@@ -59,7 +59,7 @@ Welcome to my Data Science Portfolio! This repository showcases various data sci
 ## About Me
 I'm a passionate data scientist with expertise in machine learning, data visualization, and statistical analysis. This portfolio highlights my ability to solve real-world problems using data.
 
-Feel free to explore the projects and connect with me on [LinkedIn](https://www.linkedin.com/in/rtalapaneni/).
+Feel free to explore the projects and connect with me on [LinkedIn](https://www.linkedin.com/in/ramesh-talapaneni-1a97b822).
 
 ---
 
