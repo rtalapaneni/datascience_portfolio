@@ -1,0 +1,11 @@
+spring.application.name: real-estate-analysis-service
+logging:
+  pattern:
+    correlation: "[${spring.application.name:},%X{traceId:-},%X{spanId:-}] "
+  include-application-name: false
+springdoc:
+  swagger-ui:
+    path: /swagger-ui/index.html
+    enabled: true
+  api-docs:
+    path: /v3/api-docs
