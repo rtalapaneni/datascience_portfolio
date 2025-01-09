@@ -31,6 +31,9 @@ dependencies {
 	//Instrumentation
 	implementation 'io.micrometer:micrometer-tracing-bridge-brave'
 
+	//CSV Reader
+	implementation 'com.opencsv:opencsv:5.9'
+
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 

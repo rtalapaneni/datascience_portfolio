@@ -9,3 +9,9 @@ springdoc:
     enabled: true
   api-docs:
     path: /v3/api-docs
+spring:
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+dataset:
+  training: train.csv
