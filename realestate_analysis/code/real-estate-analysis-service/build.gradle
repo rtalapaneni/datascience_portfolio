@@ -34,6 +34,9 @@ dependencies {
 	//CSV Reader
 	implementation 'com.opencsv:opencsv:5.9'
 
+	//Model Mapper
+	implementation 'org.modelmapper:modelmapper:3.2.2'
+
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 
