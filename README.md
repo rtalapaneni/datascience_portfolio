@@ -67,3 +67,4 @@ Feel free to explore the projects and connect with me on [LinkedIn](https://www.
 - **Email**: ramesh.tallapaneni@gmail.com
 - **GitHub**: [rtalapaneni](https://github.com/rtalapaneni)
 - **GitHub Page**: [Data Science Portfolio](https://rtalapaneni.github.io/datascience_portfolio/)
+- **Wix Website**: [About Me](https://rameshtallapaneni.wixsite.com/my-site-1)
