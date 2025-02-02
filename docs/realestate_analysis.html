@@ -3,135 +3,179 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Real Estate Analysis Presentation</title>
+    <title>Real Estate Analysis</title>
     <style>
       body {
         font-family: Arial, sans-serif;
-        line-height: 1.6;
-        margin: 20px;
-        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
         color: #333;
+        line-height: 1.6;
+      }
+      header {
+        background: #005a9c;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 2em;
       }
       .container {
         max-width: 800px;
         margin: 20px auto;
-        background: #fff;
         padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background: #fff;
       }
-      iframe {
-        border: none;
-        width: 80%;
-        height: 800px;
+      section {
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ddd;
       }
-      h1,
+      section:last-of-type {
+        border-bottom: none;
+      }
       h2 {
-        color: #444;
+        color: #005a9c;
+      }
+      p {
+        margin: 10px 0;
       }
       ul {
-        margin-left: 20px;
+        margin: 10px 0 10px 20px;
       }
     </style>
   </head>
   <body>
+    <header>
+      <h1>Real Estate Analysis</h1>
+      <p>Data Science Portfolio Project</p>
+    </header>
     <div class="container">
-      <h1>Real Estate Analysis – A Data Science Approach</h1>
+      <!-- Introduction -->
+      <section id="introduction">
+        <h2>Introduction</h2>
+        <p>
+          The Real Estate Analysis project explores property market data to
+          uncover trends, identify key market drivers, and provide insights for
+          investors and stakeholders. The analysis focuses on understanding the
+          factors that influence property values and market dynamics.
+        </p>
+      </section>
 
-      <h2>Overview</h2>
-      <p>
-        This project presents a comprehensive analysis of real estate data,
-        showcasing the use of data science techniques to uncover market trends,
-        evaluate property values, and identify key factors influencing real
-        estate investments. The analysis was documented in a presentation and
-        highlights both the methodology and the actionable insights derived from
-        the study.
-      </p>
+      <!-- Data Description -->
+      <section id="data-description">
+        <h2>Data Description</h2>
+        <p>
+          The dataset includes a variety of property attributes such as
+          location, property type, size, number of bedrooms, year built, and
+          pricing information. Additional economic and demographic variables
+          have also been incorporated to provide a comprehensive view of the
+          real estate market.
+        </p>
+      </section>
 
-      <h2>Objectives</h2>
-      <ul>
-        <li>
-          <strong>Data Exploration:</strong> Clean and prepare real estate data
-          for analysis.
-        </li>
-        <li>
-          <strong>Market Analysis:</strong> Identify trends and patterns within
-          the property market.
-        </li>
-        <li>
-          <strong>Insight Generation:</strong> Determine the primary drivers
-          that affect property values.
-        </li>
-        <li>
-          <strong>Decision Support:</strong> Provide actionable recommendations
-          for investors and stakeholders.
-        </li>
-      </ul>
+      <!-- Data Preprocessing -->
+      <section id="data-preprocessing">
+        <h2>Data Preprocessing</h2>
+        <p>
+          Data cleaning and preprocessing were essential steps before analysis.
+          Key preprocessing tasks included:
+        </p>
+        <ul>
+          <li>Handling missing or inconsistent data entries</li>
+          <li>
+            Normalizing numerical features and scaling variables where necessary
+          </li>
+          <li>Encoding categorical variables for analysis</li>
+        </ul>
+        <p>
+          These steps ensured the dataset was reliable and ready for subsequent
+          analysis and modeling.
+        </p>
+      </section>
 
-      <h2>Methodology</h2>
-      <ul>
-        <li>
-          <strong>Data Collection & Preparation:</strong> Gathered datasets
-          related to property listings, market trends, and demographic
-          information, followed by extensive cleaning and preprocessing.
-        </li>
-        <li>
-          <strong>Exploratory Data Analysis (EDA):</strong> Utilized statistical
-          analysis and visualization tools to explore relationships between
-          variables.
-        </li>
-        <li>
-          <strong>Modeling & Evaluation:</strong> Applied predictive modeling
-          techniques to forecast property values and assess market risks.
-        </li>
-        <li>
-          <strong>Visualization:</strong> Developed clear and informative
-          visualizations to communicate insights effectively.
-        </li>
-      </ul>
+      <!-- Exploratory Data Analysis -->
+      <section id="exploratory-data-analysis">
+        <h2>Exploratory Data Analysis (EDA)</h2>
+        <p>
+          Exploratory Data Analysis was conducted to identify patterns and
+          trends in the real estate market. Analysis included:
+        </p>
+        <ul>
+          <li>Examining the distribution of property prices and sizes</li>
+          <li>
+            Investigating the relationship between property attributes and
+            market value
+          </li>
+          <li>
+            Identifying geographical trends and the impact of location on
+            pricing
+          </li>
+        </ul>
+      </section>
 
-      <h2>Key Findings</h2>
-      <ul>
-        <li>
-          Identified significant factors influencing property values such as
-          location, market trends, and economic indicators.
-        </li>
-        <li>
-          Discovered patterns that help in segmenting the market and targeting
-          high-potential investment areas.
-        </li>
-        <li>
-          Highlighted opportunities and potential risks within the real estate
-          market, providing a robust framework for decision-making.
-        </li>
-      </ul>
+      <!-- Modeling / Predictive Analysis -->
+      <section id="modeling">
+        <h2>Predictive Analysis</h2>
+        <p>
+          To better understand the factors influencing property prices, various
+          predictive models were applied, including linear regression and
+          decision tree-based methods. The models were evaluated using metrics
+          such as RMSE and R-squared, with the goal of identifying the most
+          significant predictors of property value.
+        </p>
+      </section>
 
-      <h2>Conclusion</h2>
-      <p>
-        The project successfully demonstrates how data-driven insights can
-        enhance understanding of the real estate market. The analysis not only
-        improves the accuracy of property valuations but also supports strategic
-        investment decisions by pinpointing market opportunities and risks.
-      </p>
+      <!-- Results -->
+      <section id="results">
+        <h2>Results</h2>
+        <p>
+          The analysis revealed that factors such as location, property size,
+          and age of the property are critical determinants of market value. The
+          predictive models achieved promising accuracy, indicating that these
+          variables can be effectively used to forecast property prices and
+          inform investment decisions.
+        </p>
+      </section>
 
-      <h2>Tools &amp; Technologies</h2>
-      <ul>
-        <li>Python (for data analysis and modeling)</li>
-        <li>Data visualization libraries (e.g., Matplotlib, Seaborn)</li>
-        <li>Statistical analysis and machine learning techniques</li>
-      </ul>
+      <!-- Conclusion -->
+      <section id="conclusion">
+        <h2>Conclusion</h2>
+        <p>
+          In summary, the Real Estate Analysis project provides valuable
+          insights into the dynamics of property markets. By leveraging
+          data-driven approaches, the project identifies key factors that
+          influence property values and supports strategic decision-making for
+          investors and market analysts.
+        </p>
+      </section>
 
-      <p>
-        This project reflects a strong foundation in data science and analytical
-        skills, with practical applications in the real estate industry. It is
-        an excellent example of how data can drive informed business decisions.
-      </p>
-      <h3>
-        <a
-          href="https://github.com/rtalapaneni/datascience_portfolio/tree/main/realestate_analysis"
-          >Real Estate Analysis - Code</a
-        >
-      </h3>
+      <!-- Future Work -->
+      <section id="future-work">
+        <h2>Future Work</h2>
+        <p>
+          Future enhancements could include incorporating additional data
+          sources, such as real-time market feeds and economic indicators, as
+          well as refining the predictive models using more advanced machine
+          learning techniques.
+        </p>
+      </section>
+
+      <!-- References -->
+      <section id="references">
+        <h2>References</h2>
+        <p>
+          For additional details and technical documentation, please refer to
+          the full project repository on
+          <a
+            href="https://github.com/rtalapaneni/datascience_portfolio/tree/main/realestate_analysis"
+            >GitHub</a
+          >.
+        </p>
+      </section>
     </div>
   </body>
 </html>
