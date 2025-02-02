@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Telco Customer Churn Summary</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+        color: #333;
+        line-height: 1.6;
+      }
+      header {
+        background: #005a9c;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 2em;
+      }
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background: #fff;
+      }
+      section {
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ddd;
+      }
+      section:last-of-type {
+        border-bottom: none;
+      }
+      h2 {
+        color: #005a9c;
+      }
+      p {
+        margin: 10px 0;
+      }
+      ul {
+        margin: 10px 0 10px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Telco Customer Churn Analysis Summary</h1>
+    </header>
+    <div class="container">
+      <!-- Introduction -->
+      <section id="introduction">
+        <h2>Introduction</h2>
+        <p>
+          This project investigates customer churn in the telecommunications
+          industry. The analysis focuses on understanding the key factors that
+          influence a customer’s decision to leave a service provider. The
+          ultimate goal is to build predictive models that can identify
+          customers at risk of churning.
+        </p>
+      </section>
+
+      <!-- Data Description -->
+      <section id="data-description">
+        <h2>Data Description</h2>
+        <p>
+          The dataset includes various customer-related attributes such as
+          demographics, account details, and usage patterns. Important variables
+          include customer tenure, contract type, payment methods, monthly
+          charges, and other service-related features that provide insights into
+          customer behavior.
+        </p>
+      </section>
+
+      <!-- Data Preprocessing -->
+      <section id="data-preprocessing">
+        <h2>Data Preprocessing</h2>
+        <p>
+          Prior to analysis, the data underwent extensive cleaning and
+          preprocessing. Steps included:
+        </p>
+        <ul>
+          <li>Handling missing values and outliers</li>
+          <li>Encoding categorical variables for model compatibility</li>
+          <li>Normalizing or scaling numerical features</li>
+        </ul>
+        <p>
+          These steps were crucial in ensuring that the data was well-prepared
+          for both exploratory analysis and the development of predictive
+          models.
+        </p>
+      </section>
+
+      <!-- Exploratory Data Analysis -->
+      <section id="exploratory-data-analysis">
+        <h2>Exploratory Data Analysis (EDA)</h2>
+        <p>
+          EDA was performed to understand the distribution of key variables and
+          to identify trends that differentiate churned customers from those who
+          remain. The analysis revealed:
+        </p>
+        <ul>
+          <li>
+            Distinct patterns in tenure and monthly charges between churned and
+            non-churned customers
+          </li>
+          <li>
+            Correlations between certain service features and the likelihood of
+            churn
+          </li>
+          <li>
+            Insights into customer demographics that may contribute to churn
+            behavior
+          </li>
+        </ul>
+      </section>
+
+      <!-- Predictive Modeling -->
+      <section id="predictive-modeling">
+        <h2>Predictive Modeling</h2>
+        <p>
+          Several machine learning models were explored to predict customer
+          churn, including:
+        </p>
+        <ul>
+          <li>Logistic Regression</li>
+          <li>Decision Trees</li>
+          <li>Random Forests</li>
+          <li>Ensemble Methods</li>
+        </ul>
+        <p>
+          Models were evaluated using metrics such as accuracy, precision,
+          recall, and ROC-AUC to determine their effectiveness in predicting
+          churn.
+        </p>
+      </section>
+
+      <!-- Results -->
+      <section id="results">
+        <h2>Results</h2>
+        <p>
+          The best-performing models demonstrated strong predictive capabilities
+          with a ROC-AUC around 0.85. The analysis identified key drivers of
+          churn, including customer tenure, contract type, and monthly charges.
+          These insights can be leveraged to implement targeted retention
+          strategies.
+        </p>
+      </section>
+
+      <!-- Conclusion -->
+      <section id="conclusion">
+        <h2>Conclusion</h2>
+        <p>
+          The Telco Customer Churn analysis successfully highlighted the main
+          factors influencing customer retention in the telecommunications
+          industry. By understanding these factors, companies can proactively
+          address the issues that lead to churn, potentially reducing customer
+          turnover and enhancing overall business performance.
+        </p>
+      </section>
+
+      <!-- Future Work -->
+      <section id="future-work">
+        <h2>Future Work</h2>
+        <p>Future efforts may include:</p>
+        <ul>
+          <li>Incorporating additional datasets to improve model robustness</li>
+          <li>Refining feature engineering techniques</li>
+          <li>
+            Deploying real-time predictive systems for ongoing churn monitoring
+          </li>
+        </ul>
+      </section>
+
+      <!-- References -->
+      <section id="references">
+        <h2>References</h2>
+        <p>
+          For further details, please refer to the full project documentation
+          and report available at the project's repository on
+          <a
+            href="https://github.com/rtalapaneni/datascience_portfolio/tree/main/telco_customer_churn"
+            >GitHub</a
+          >.
+        </p>
+      </section>
+    </div>
+  </body>
+</html>
